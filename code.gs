@@ -1,5 +1,5 @@
 function sendDiscordNotification(sender, subject, body) {
-  const webhookUrl = "https://discord.com/api/webhooks/1265578419739955241/T9zXxAR-a20shpYNkHfD120A1ePt3c9LGmCzSnrSacjgjqy0RmYsfGx3biAHZQeNbSD0"; // Ganti dengan URL webhook Discord kamu
+  const webhookUrl = "";
   const payload = JSON.stringify({
     content: `**Sender:** ${sender}\n**Subject:** ${subject}\n**Body:** ${body}`
   });
